@@ -3,12 +3,12 @@
 	"providerName":"WordPress.com",
 	"serviceId":"hosting",
 	"serviceName":"WordPress services",
-	"version": 1,
+	"version": 2,
 	"logoUrl":"https://automattic.files.wordpress.com/2005/12/wpcom-horiz.png",
 	"description":"This can be used to set up website hosting at WordPress.com",
 	"syncBlock": false,
+	"syncPubKeyDomain": "wordpress.com",
 	"syncRedirectDomain":"wordpress.com",
-	"shared": false,
 	"warnPhishing": false,
 	"records":[
 		{
@@ -16,21 +16,21 @@
 			"type": "CNAME",
 			"host": "www",
 			"pointsTo": "@",
-			"ttl": "3600"
+			"ttl": 3600
 		},
 		{
 			"groupId":"mapping",
 			"type":"A",
 			"host":"@",
 			"pointsTo":"192.0.78.24",
-			"ttl":"3600"
+			"ttl":3600
 		},
 		{
 			"groupId":"mapping",
 			"type":"A",
 			"host":"@",
 			"pointsTo":"192.0.78.25",
-			"ttl":"3600"
+			"ttl":3600
 		}
 	]
 }
